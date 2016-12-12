@@ -10,7 +10,7 @@ public class Main {
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("cursoHibernate");
         EntityManager manager = factory.createEntityManager();
 
-        System.out.println("\n\n Conectado!! \n\n");
+        System.out.println("\n Conectado! \n ");
 
         manager.close();
         factory.close();
